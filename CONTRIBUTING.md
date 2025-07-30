@@ -15,7 +15,8 @@ Thank you for your interest in contributing to InfantCareCompass! This document 
 1. **Fork the Repository**
    ```bash
    # Fork the repository on GitHub first, then clone your fork
-   git clone https://github.com/YOUR_USERNAME/InfantCareCompass.git
+   # Replace <your-github-username> with your actual username
+   git clone https://github.com/<your-github-username>/InfantCareCompass.git
    cd InfantCareCompass
    ```
 
@@ -36,7 +37,7 @@ Thank you for your interest in contributing to InfantCareCompass! This document 
 3. **Set Up Environment Variables**
    Create a `.env` file in the root directory with the following variables:
    ```env
-   PORT=5000
+   PORT=3000
    MONGO_URI=your_mongodb_uri
    CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
    CLOUDINARY_API_KEY=your_cloudinary_api_key
